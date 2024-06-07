@@ -11,13 +11,28 @@
             background: black;
             color: #0f0;
             font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
         }
         canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
             display: block;
+        }
+        .center-text {
+            position: relative;
+            z-index: 1;
+            font-size: 48px;
+            color: #0f0;
         }
     </style>
 </head>
 <body>
+    <div class="center-text">Prueba</div>
     <canvas id="matrix"></canvas>
     <script>
         const canvas = document.getElementById('matrix');
