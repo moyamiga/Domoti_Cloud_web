@@ -101,9 +101,9 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
   padding: 5px;
 }
 .sc-icon {
-  width: 44px;
+  /*width: 44px;
   /* Ancho ajustado para mantener la proporción */
-  height: 30px;
+  /*height: 30px;
   /* Altura deseada */
   /*object-fit: contain;
   /* Asegura que la imagen se ajuste dentro del contenedor sin distorsionarse */
