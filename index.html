@@ -18,6 +18,29 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <style>
+    .controls-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      /* Para alinear el ícono a la derecha */
+    }
+
+    .mode-switcher {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding: 10px;
+    }
+
+    .switch-inner {
+      padding: 5px;
+    }
+
+
+
+
     .sc-icon {
       width: 44px;
       /* Ancho ajustado para mantener la proporción */
@@ -122,7 +145,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!--Start Page Header-->
-  <header class=" page-header   header-basic" id="page-header">
+  <header class="page-header header-basic" id="page-header">
     <div class="header-search-box">
       <div class="close-search"></div>
       <form class="nav-search search-form" role="search" method="get" action="#">
@@ -143,39 +166,44 @@
         </div>
         <div class="links menu-wrapper">
           <ul class="list-js links-list">
-
-            <li class="menu-item has-sub-menu"><a class="menu-link" href="#0">Nuestros Servicios <i
-                  class="fas fa-plus plus-icon"> </i></a>
+            <li class="menu-item has-sub-menu">
+              <a class="menu-link" href="#0">Nuestros Servicios <i class="fas fa-plus plus-icon"> </i></a>
               <ul class="sub-menu">
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link"
-                    href="domoti-energi-control.html">DomotiEnergiControl</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link"
-                    href="domoti-wifi-extend.html">DomotiWiFiExtend</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link"
-                    href="domoti-protec-shield.html">DomotiProtecShield</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link"
-                    href="domoti-cyber-shield.html">DomotiCyberShield</a></li>
-                <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link"
-                    href="domoti-home-service.html">DomotiHomeService</a></li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-seguridad-perimetral.html">Soluciones en
+                    Seguridad Perimetral</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-seguridad-cibernetica.html">Soluciones en
+                    Seguridad Cibernética</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-wifi-mesh.html">Soluciones WiFi Mesh</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-energia.html">Soluciones en Energía</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-automatizacion.html">Soluciones en
+                    Automatización</a>
+                </li>
               </ul>
             </li>
             <li class="menu-item"><a class="menu-link" href="blog.html">Blog</a></li>
-
           </ul>
+        </div>
+        <div class="controls-box">
+          <div class="mode-switcher">
+            <div class="switch-inner go-light" title="Switch To Light Mode"><i class="bi bi-sun icon"></i></div>
+            <div class="switch-inner go-dark" title="Switch To Dark Mode"><i class="bi bi-moon icon"></i></div>
+          </div>
         </div>
       </nav>
     </div>
-
-    <div class="controls-box">
-      <div class="mode-switcher ">
-        <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
-        <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
-      </div>
-      <!--mini shoping cart-->
-    </div>
-    </div>
   </header>
   <!--End Page Header-->
+
+
   <!-- Start  Page hero-->
   <section class="page-hero  d-flex align-items-center  tringle-bg" id="page-hero">
     <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-1.jpg"
@@ -366,520 +394,519 @@
   <!-- Start about Section-->
   <section class="about mega-section" id="about">
     <div class="container">
-          <!-- Start first about div-->
-          <div class="content-block">
-            <div class="row">
-              <div class="col-12 col-lg-6 d-flex align-items-center order-1 order-lg-0 about-col pad-end wow fadeInUp"
-                data-wow-delay="0.6s">
-                <div class="text-area">
-                  <div class="sec-heading light-title">
-                    <div class="content-area">
-                      <span class="pre-title wow fadeInUp" data-wow-delay=".2s">Sobre Nosotros</span>
-                      <h2 class="title wow fadeInUp" data-wow-delay=".4s">
-                        <span class='hollow-text'>Innovación y Excelencia a tu</span>
-                        <span class='featured-text'>servicio. <svg xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 500 150" preserveAspectRatio="none">
-                            <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
-                          </svg></span>
-                      </h2>
+      <!-- Start first about div-->
+      <div class="content-block">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex align-items-center order-1 order-lg-0 about-col pad-end wow fadeInUp"
+            data-wow-delay="0.6s">
+            <div class="text-area">
+              <div class="sec-heading light-title">
+                <div class="content-area">
+                  <span class="pre-title wow fadeInUp" data-wow-delay=".2s">Sobre Nosotros</span>
+                  <h2 class="title wow fadeInUp" data-wow-delay=".4s">
+                    <span class='hollow-text'>Innovación y Excelencia a tu</span>
+                    <span class='featured-text'>servicio. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150"
+                        preserveAspectRatio="none">
+                        <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                      </svg></span>
+                  </h2>
 
-                    </div>
-                  </div>
-                  
-                  <p class="about-text">
-                    En Domoti Cloud, nuestra prioridad es la satisfacción del cliente.<br>
-                    Nos dedicamos a encontrar y ofrecer la mejor tecnología disponible para mejorar la eficiencia,
-                    seguridad y comodidad de tu hogar y empresa.<br>
-                    Creemos en la personalización y en soluciones adaptadas a tus necesidades específicas, asegurando
-                    que cada cliente reciba un servicio que no solo cumpla, sino que supere sus expectativas.
-                  </p>
-                  <div class="info-items-list">
-                    <div class="row">
-                      <div class="col-9 col-xl-6">
-                        <div class="info-item">
-                          <i class="flaticon-medal info-icon"></i>
-                          <div class="info-content">
-                            <h5 class="info-title">Liderazgo en el Campo</h5>
-                            <p class="info-text">Nos destacamos por ser los primeros en adoptar las últimas innovaciones
-                              tecnológicas, asegurando que nuestros clientes siempre tengan acceso a lo mejor del
-                              mercado.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-9 col-xl-6">
-                        <div class="info-item">
-                          <i class="flaticon-game-console info-icon"></i>
-                          <div class="info-content">
-                            <h5 class="info-title">Servicios Globales</h5>
-                            <p class="info-text">Ofrecemos nuestras soluciones a nivel mundial, garantizando la misma
-                              calidad y excelencia sin importar la ubicación de nuestros clientes.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-9 col-xl-6">
-                        <div class="info-item">
-                          <i class="flaticon-map info-icon"></i>
-                          <div class="info-content">
-                            <h5 class="info-title">Accesibilidad</h5>
-                            <p class="info-text">Facilitamos el acceso a nuestras soluciones y servicios a través de un
-                              soporte rápido y eficiente, disponible para todos nuestros clientes.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-9 col-xl-6">
-                        <div class="info-item">
-                          <i class="flaticon-technical-support-1 info-icon"></i>
-                          <div class="info-content">
-                            <h5 class="info-title">Soporte 24/7</h5>
-                            <p class="info-text">Nuestro equipo de soporte está disponible las 24 horas del día, los 7
-                              días de la semana, para resolver cualquier consulta o problema que puedan tener nuestros
-                              clientes.</p>
-                          </div>
-                        </div>
+                </div>
+              </div>
+
+              <p class="about-text">
+                En Domoti Cloud, nuestra prioridad es la satisfacción del cliente.<br>
+                Nos dedicamos a encontrar y ofrecer la mejor tecnología disponible para mejorar la eficiencia,
+                seguridad y comodidad de tu hogar y empresa.<br>
+                Creemos en la personalización y en soluciones adaptadas a tus necesidades específicas, asegurando
+                que cada cliente reciba un servicio que no solo cumpla, sino que supere sus expectativas.
+              </p>
+              <div class="info-items-list">
+                <div class="row">
+                  <div class="col-9 col-xl-6">
+                    <div class="info-item">
+                      <i class="flaticon-medal info-icon"></i>
+                      <div class="info-content">
+                        <h5 class="info-title">Liderazgo en el Campo</h5>
+                        <p class="info-text">Nos destacamos por ser los primeros en adoptar las últimas innovaciones
+                          tecnológicas, asegurando que nuestros clientes siempre tengan acceso a lo mejor del
+                          mercado.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="cta-area">
-                    <a class="btn-solid reveal-start"
-                      href="mailto:contacto@domoti.cloud?subject=Contacto%20desde%20la%20web&body=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20sus%20servicios.">
-                      Escríbenos, queremos saber de ti
-                    </a>
+                  <div class="col-9 col-xl-6">
+                    <div class="info-item">
+                      <i class="flaticon-game-console info-icon"></i>
+                      <div class="info-content">
+                        <h5 class="info-title">Servicios Globales</h5>
+                        <p class="info-text">Ofrecemos nuestras soluciones a nivel mundial, garantizando la misma
+                          calidad y excelencia sin importar la ubicación de nuestros clientes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-9 col-xl-6">
+                    <div class="info-item">
+                      <i class="flaticon-map info-icon"></i>
+                      <div class="info-content">
+                        <h5 class="info-title">Accesibilidad</h5>
+                        <p class="info-text">Facilitamos el acceso a nuestras soluciones y servicios a través de un
+                          soporte rápido y eficiente, disponible para todos nuestros clientes.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-9 col-xl-6">
+                    <div class="info-item">
+                      <i class="flaticon-technical-support-1 info-icon"></i>
+                      <div class="info-content">
+                        <h5 class="info-title">Soporte 24/7</h5>
+                        <p class="info-text">Nuestro equipo de soporte está disponible las 24 horas del día, los 7
+                          días de la semana, para resolver cualquier consulta o problema que puedan tener nuestros
+                          clientes.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-6 d-flex align-items-center order-0 order-lg-1 about-col wow fadeInUp"
-                data-wow-delay="0.2s">
-                <div class="img-area" data-tilt>
-                  <div class="image"><img class="about-img img-fluid" loading="lazy" src="assets/images/about/3.png"
-                      alt="Our vision"></div>
-                </div>
+              <div class="cta-area">
+                <a class="btn-solid reveal-start"
+                  href="mailto:contacto@domoti.cloud?subject=Contacto%20desde%20la%20web&body=Hola,%20me%20gustaría%20recibir%20más%20información%20sobre%20sus%20servicios.">
+                  Escríbenos, queremos saber de ti
+                </a>
               </div>
             </div>
           </div>
-          <!--End first about div-->
-
-          <!-- End about Section-->
-
-          <!-- Start first about div-->
-          <div class="content-block  ">
-            <div class="row">
-              <div class="col-12 col-lg-6 d-flex align-items-center about-col  wow fadeInUp" data-wow-delay="0.2s">
-                <div class="img-area  ">
-                  <div class="image  " data-tilt><img class="about-img img-fluid " loading="lazy"
-                      src="assets/images/about/1.png" alt="about"></div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6 d-flex align-items-center about-col pad-start  wow fadeInUp "
-                data-wow-delay="0.6s">
-                <div class="text-area ">
-                  <div class="sec-heading  light-title ">
-                    <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">¿Por Qué
-                        Elegirnos?
-
-                      </span>
-                      <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Por</span> Qué </span> Nuestros <span
-                          class='featured-text'> Clientes <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150"
-                            preserveAspectRatio="none">
-                            <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
-                          </svg></span> Nos Eligen</h2>
-                    </div>
-                  </div>
-                  <p class=" about-text">En Domoti Cloud, nos destacamos por nuestra dedicación a ofrecer soluciones
-                    tecnológicas innovadoras y personalizadas para mejorar la eficiencia, seguridad y conectividad de tu
-                    hogar y empresa.</p>
-                  <div class="info-items-list">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="info-item">
-                          <span class="info-number">01.</span>
-                          <div class="info-content">
-                            <h5 class="info-title">Tecnología Personalizada: </h5>
-                            <p class="info-text">Soluciones adaptadas a tus necesidades específicas.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <div class="info-item">
-                          <span class="info-number">02.</span>
-                          <div class="info-content">
-                            <h5 class="info-title">Seguridad y Tranquilidad: </h5>
-                            <p class="info-text">Protección avanzada para tu hogar, empresa y datos personales.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <div class="info-item">
-                          <span class="info-number">03.</span>
-                          <div class="info-content">
-                            <h5 class="info-title">Ahorro y Eficiencia:</h5>
-                            <p class="info-text">Optimiza el uso de recursos y reduce costos.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cta-area">
-                    <a class="btn-solid"
-                      href="https://wa.me/525592217665?text=Hola,%20me%20gustaría%20que%20me%20contactaran%20para%20más%20información.">
-                      Contáctanos por WhatsApp
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--End first about div-->
-        </div>
-      </section>
-      <!-- End  about Section-->
-      <!-- Start  stats Section-->
-      <section class="stats js-stats-counter mega-section">
-        <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-3.jpg"
-          data-bg-opacity=".2"></div>
-        <div class="container">
-          <div class="stats-inner">
-            <div class="row justify-content-center">
-              <!--Info One-->
-              <div class="col-12 col-md-4 stat-box">
-                <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-project-management stat-icon"></i>
-                  <p class="stat-num"><span class="counter" data-from="10" data-to="2727" data-speed="3000"
-                      data-refresh-interval="50"></span><span class="sign">+</span></p>
-                  <span class="stat-desc">Integraciones compatibles</span>
-                </div>
-              </div>
-              <!--Info Two-->
-              <div class="col-12 col-md-4 stat-box">
-                <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-content-management stat-icon"></i>
-                  <p class="stat-num"><span class="counter" data-from="0" data-to="800" data-speed="3000"
-                      data-refresh-interval="50"></span><span class="sign">+</span></p>
-                  <span class="stat-desc">Marcas compatibles</span>
-                </div>
-              </div>
-              <!--Info Three-->
-              <div class="col-12 col-md-4 stat-box">
-                <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-user stat-icon"></i>
-                  <p class="stat-num"><span class="counter" data-from="0" data-to="200" data-speed="3000"
-                      data-refresh-interval="50"></span><span class="sign">+</span></p>
-                  <span class="stat-desc">Clientes satisfechos</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End  stats Section-->
-      <!-- Start  testimonials Section-->
-      <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials-img-bg">
-        <div class="overlay-photo-image-bg parallax " data-bg-img="assets/images/sections-bg-images/1.jpg"
-          data-bg-opacity=".25"> </div>
-        <div class="container">
-          <div class="sec-heading  centered ">
-            <div class="content-area"><span class=" pre-title       wow fadeInUp "
-                data-wow-delay=".2s">Testimonios</span>
-              <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Testimonios de nuestros <span class='hollow-text'>
-                  clietes </span>
-              </h2>
-            </div>
-          </div>
-          <div class="row d-flex align-items-center">
-            <div class="col-12 col-md-10  mx-auto">
-              <div class="swiper-container  wow fadeInUp  " data-wow-delay="0.2s">
-                <div class="swiper-wrapper">
-                  <!--First Slide-->
-                  <div class="swiper-slide">
-                    <div class="testmonial-card d-flex align-items-center justify-content-center">
-                      <div class="testimonial-content">
-                        <div class="customer-img "><img class="img-fluid " loading="lazy"
-                            src="assets/images/testimonials/1.png" alt="First Slide "></div>
-                        <div class="customer-testimonial">
-                          <div class="content">
-                            <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
-                              sequi
-                              aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="customer-info ">
-                          <div class="customer-details">
-                            <p class="customer-name">Yusuf amin</p>
-                            <p class="customer-role">founder</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--Second Slide-->
-                  <div class="swiper-slide">
-                    <div class="testmonial-card d-flex align-items-center justify-content-center">
-                      <div class="testimonial-content">
-                        <div class="customer-img "><img class="img-fluid " loading="lazy"
-                            src="assets/images/testimonials/2.png" alt="First Slide "></div>
-                        <div class="customer-testimonial">
-                          <div class="content">
-                            <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
-                              sequi
-                              aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="customer-info ">
-                          <div class="customer-details">
-                            <p class="customer-name">fouad osman</p>
-                            <p class="customer-role">officer</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!--third Slide-->
-                  <div class="swiper-slide">
-                    <div class="testmonial-card d-flex align-items-center justify-content-center">
-                      <div class="testimonial-content">
-                        <div class="customer-img "><img class="img-fluid " loading="lazy"
-                            src="assets/images/testimonials/3.png" alt="First Slide "></div>
-                        <div class="customer-testimonial">
-                          <div class="content">
-                            <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
-                              sequi
-                              aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="customer-info ">
-                          <div class="customer-details">
-                            <p class="customer-name">fairouz mhmd</p>
-                            <p class="customer-role">manager</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--navigation buttons-->
-                <div class="swiper-button-prev">
-                  <div class="left-arrow"><i class="bi bi-chevron-left icon "></i>
-                  </div>
-                </div>
-                <div class="swiper-button-next">
-                  <div class="right-arrow"><i class="bi bi-chevron-right icon "></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End  testimonials Section-->
-      <!-- Start  page-footer Section-->
-      <footer class="page-footer dark-color-footer" id="page-footer">
-        <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg"
-          data-bg-opacity=".25"></div>
-        <div class="container">
-          <div class="row footer-cols">
-            <div class="col-12 col-md-8 col-lg-4 footer-col">
-              <img class="img-fluid footer-logo" loading="lazy" src="assets/images/logo/logo-colored.png" alt="logo" />
-              <div class="footer-col-content-wrapper">
-                <p class="footer-text-about-us">
-                  En Domoti Cloud, estamos aquí para escuchar y ofrecer soluciones personalizadas.<br>
-                  Tu satisfacción es nuestra prioridad, y estamos comprometidos a proporcionarte el mejor servicio
-                  posible.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-md-8 col-lg-4 offset-lg-4 footer-col">
-              <h2 class="footer-col-title text-right">Información de Contacto</h2>
-              <div class="footer-col-content-wrapper text-right">
-                <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase info"
-                    href="mailto:contacto@domoti.cloud">contacto@domoti.cloud</a></div>
-                <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span
-                    class="text-lowercase info">México, Huixquilucan, Bosque Real.</span></div>
-                <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info"
-                    href="tel:+525592217665">+52 55 9221 7665</a></div>
-                <div class="contact-info-card">
-                  <div class="social-icons">
-                    <div class="sc-wrapper dir-row sc-size-32">
-                      <ul class="sc-list">
-                        <li class="sc-item" title="Síguenos en Facebook"><a class="sc-link"
-                            href="https://www.facebook.com/domoti.cloud" title="Síguenos en Facebook">
-                            <img src="assets/images/custom-icons/facebook.png" alt="Facebook Icon" class="sc-icon">
-                          </a></li>
-                        <li class="sc-item" title="Ve nuestros videos en YouTube"><a class="sc-link"
-                            href="https://www.youtube.com/@DomotiCloud" title="Ve nuestros videos en YouTube">
-                            <img src="assets/images/custom-icons/youtube.png" alt="YouTube Icon" class="sc-icon">
-                          </a></li>
-                        <li class="sc-item" title="Síguenos en Instagram"><a class="sc-link"
-                            href="https://www.instagram.com/domoticloud/" title="Síguenos en Instagram">
-                            <img src="assets/images/custom-icons/instagram.png" alt="Instagram Icon" class="sc-icon">
-                          </a></li>
-                        <li class="sc-item" title="Síguenos en Twitter"><a class="sc-link"
-                            href="https://twitter.com/Domoticloud" title="Síguenos en Twitter">
-                            <img src="assets/images/custom-icons/twitter.png" alt="Twitter Icon" class="sc-icon">
-                          </a></li>
-                        <li class="sc-item" title="Síguenos en LinkedIn"><a class="sc-link"
-                            href="https://www.linkedin.com/company/domoti-cloud" title="Síguenos en LinkedIn">
-                            <img src="assets/images/custom-icons/linkedin.png" alt="LinkedIn Icon" class="sc-icon">
-                          </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="copyrights">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-md-6 d-flex justify-content-start">
-                  <p class="credits">
-                    &copy; 2024 Creado con la ayuda de: ChatGPT</a>
-                  </p>
-                </div>
-                <div class="col-12 col-md-6 d-flex justify-content-end">
-                  <div class="terms-links"><a href="#0" data-bs-toggle="modal"
-                      data-bs-target="#privacyPolicyModal">Aviso de Privacidad</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- End  page-footer Section-->
-
-
-      <!-- Start loading-screen Component-->
-      <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span
-          class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
-      <!-- End loading-screen Component-->
-
-      <!-- Botón Flotante de WhatsApp -->
-      <a href="https://wa.me/525592217665?text=Hola, me pueden contactar para saber más acerca de:"
-        class="whatsapp-float" target="_blank" title="Escríbenos, estamos listos para atenderte">
-        <img src="assets/images/custom-icons/whatsapp.png" alt="WhatsApp Icon" />
-      </a>
-
-      <!-- Botón de Regreso al Inicio -->
-      <div class="back-to-top" id="back-to-top" title="Regresar al inicio">
-        <i class="bi bi-arrow-up icon"></i>
-      </div>
-
-      <div class="modal privacy-policy-modal fade" id="privacyPolicyModal" aria-labelledby="PrivacyPolicyModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-xl ">
-          <div class="modal-content text-dark">
-            <div class="modal-header">
-              <h2 class="modal-title" id="PrivacyPolicyModalLabel">Aviso de Privacidad</h2>
-              <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <div class="content">
-                <p>En Domoti Cloud, nos comprometemos a proteger la privacidad de nuestros clientes y usuarios. Este
-                  aviso de privacidad explica cómo recopilamos, usamos, compartimos y protegemos su información personal
-                  de acuerdo con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares de
-                  México.</p>
-              </div>
-              <div class="content">
-                <h4>1. Responsable de la Información</h4>
-                <p>Domoti Cloud, con domicilio en México, Huixquilucan, Bosque Real, es responsable del tratamiento de
-                  sus datos personales.</p>
-              </div>
-              <div class="content">
-                <h4>2. Datos Personales Recopilados</h4>
-                <p>Recopilamos datos personales como nombre completo, dirección de correo electrónico, número de
-                  teléfono, dirección física, y datos fiscales con la finalidad de facturación.</p>
-              </div>
-              <div class="content">
-                <h4>3. Finalidad del Tratamiento de Datos</h4>
-                <p>Los datos personales que recopilamos serán utilizados para proveer los productos y servicios
-                  solicitados, informar sobre cambios o nuevos productos y servicios, evaluar la calidad del servicio y
-                  realizar estudios internos sobre hábitos de consumo.</p>
-              </div>
-              <div class="content">
-                <h4>4. Protección de Datos</h4>
-                <p>Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger sus datos
-                  personales contra daño, pérdida, alteración, destrucción o el uso, acceso o tratamiento no autorizado.
-                </p>
-              </div>
-              <div class="content">
-                <h4>5. Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición)</h4>
-                <p>Usted tiene el derecho de acceder, rectificar, cancelar u oponerse al tratamiento de sus datos
-                  personales. Para ejercer estos derechos, envíe una solicitud a contacto@domoti.cloud con su nombre
-                  completo, dirección de correo electrónico o número de teléfono, y la descripción clara y precisa de
-                  los datos personales a los que desea acceder, rectificar, cancelar u oponerse.</p>
-              </div>
-              <div class="content">
-                <h4>6. Uso de Datos por Terceros</h4>
-                <p>No compartimos sus datos personales con terceros sin su consentimiento expreso, salvo cuando sea
-                  necesario para cumplir con obligaciones legales.</p>
-              </div>
-              <div class="content">
-                <h4>7. Cambios en el Aviso de Privacidad</h4>
-                <p>Nos reservamos el derecho de efectuar en cualquier momento modificaciones o actualizaciones al
-                  presente aviso de privacidad. Estas modificaciones estarán disponibles a través de nuestro sitio web
-                  <a href="https://domoti.cloud">domoti.cloud</a>.
-                </p>
-              </div>
-              <div class="content">
-                <h4>8. Contacto</h4>
-                <p>Si tiene alguna duda sobre este aviso de privacidad, puede contactarnos en: <br>
-                  📧 Email: <a href="mailto:contacto@domoti.cloud">contacto@domoti.cloud</a> <br>
-                  📞 Teléfono: <a href="tel:+525592217665">+52 55 9221 7665</a> (WhatsApp)
-                </p>
-              </div>
-            </div>
-
-            <div class="modal-footer">
-              <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Click para
-                cerrar</button>
-
+          <div class="col-12 col-lg-6 d-flex align-items-center order-0 order-lg-1 about-col wow fadeInUp"
+            data-wow-delay="0.2s">
+            <div class="img-area" data-tilt>
+              <div class="image"><img class="about-img img-fluid" loading="lazy" src="assets/images/about/3.png"
+                  alt="Our vision"></div>
             </div>
           </div>
         </div>
       </div>
-      <!-- End privacy-policy-modal-->
+      <!--End first about div-->
 
-      <!--     JQuery     -->
-      <script src="js/vendors/jquery-3.6.1.min.js"></script>
+      <!-- End about Section-->
 
-      <!--     appear     -->
-      <script src="js/vendors/appear.min.js"></script>
+      <!-- Start first about div-->
+      <div class="content-block  ">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-flex align-items-center about-col  wow fadeInUp" data-wow-delay="0.2s">
+            <div class="img-area  ">
+              <div class="image  " data-tilt><img class="about-img img-fluid " loading="lazy"
+                  src="assets/images/about/1.png" alt="about"></div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-flex align-items-center about-col pad-start  wow fadeInUp "
+            data-wow-delay="0.6s">
+            <div class="text-area ">
+              <div class="sec-heading  light-title ">
+                <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">¿Por Qué
+                    Elegirnos?
 
-      <!--     bootstrap     -->
-      <script src="js/vendors/bootstrap.bundle.min.js"></script>
-
-      <!--     countTo     -->
-      <script src="js/vendors/jquery.countTo.js"></script>
-
-      <!--     wow     -->
-      <script src="js/vendors/wow.min.js"></script>
-
-      <!--     swiper     -->
-      <script src="js/vendors/swiper-bundle.min.js"></script>
-
-      <!--     particles     -->
-      <script src="js/vendors/particles.min.js"></script>
-
-      <!--     Vanilla-tilt     -->
-      <script src="js/vendors/vanilla-tilt.min.js"></script>
-
-      <!--     isotope     -->
-      <script src="js/vendors/isotope-min.js"></script>
-
-      <!--     fancybox     -->
-      <script src="js/vendors/jquery.fancybox.min.js"></script>
-
-      <!--     main     -->
-      <script src="js/main.js"></script>
-
-      </a>
-      <a href="https://wa.me/525592217665?text=Hola, me pueden contactar para saber más acerca de:"
-        class="whatsapp-float" target="_blank" title="Escríbenos, estamos listos para atenderte">
-        <img src="assets/images/custom-icons/whatsapp.png" alt="WhatsApp Icon" />
-      </a>
-
-      <!-- Botón de Regreso al Inicio -->
-      <div class="back-to-top" id="back-to-top" title="Regresar al inicio">
-        <i class="bi bi-arrow-up icon"></i>
+                  </span>
+                  <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Por</span> Qué </span> Nuestros <span
+                      class='featured-text'> Clientes <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150"
+                        preserveAspectRatio="none">
+                        <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                      </svg></span> Nos Eligen</h2>
+                </div>
+              </div>
+              <p class=" about-text">En Domoti Cloud, nos destacamos por nuestra dedicación a ofrecer soluciones
+                tecnológicas innovadoras y personalizadas para mejorar la eficiencia, seguridad y conectividad de tu
+                hogar y empresa.</p>
+              <div class="info-items-list">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="info-item">
+                      <span class="info-number">01.</span>
+                      <div class="info-content">
+                        <h5 class="info-title">Tecnología Personalizada: </h5>
+                        <p class="info-text">Soluciones adaptadas a tus necesidades específicas.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="info-item">
+                      <span class="info-number">02.</span>
+                      <div class="info-content">
+                        <h5 class="info-title">Seguridad y Tranquilidad: </h5>
+                        <p class="info-text">Protección avanzada para tu hogar, empresa y datos personales.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="info-item">
+                      <span class="info-number">03.</span>
+                      <div class="info-content">
+                        <h5 class="info-title">Ahorro y Eficiencia:</h5>
+                        <p class="info-text">Optimiza el uso de recursos y reduce costos.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cta-area">
+                <a class="btn-solid"
+                  href="https://wa.me/525592217665?text=Hola,%20me%20gustaría%20que%20me%20contactaran%20para%20más%20información.">
+                  Contáctanos por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!--End first about div-->
+    </div>
+  </section>
+  <!-- End  about Section-->
+  <!-- Start  stats Section-->
+  <section class="stats js-stats-counter mega-section">
+    <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/pattern-bg-3.jpg"
+      data-bg-opacity=".2"></div>
+    <div class="container">
+      <div class="stats-inner">
+        <div class="row justify-content-center">
+          <!--Info One-->
+          <div class="col-12 col-md-4 stat-box">
+            <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-project-management stat-icon"></i>
+              <p class="stat-num"><span class="counter" data-from="10" data-to="2727" data-speed="3000"
+                  data-refresh-interval="50"></span><span class="sign">+</span></p>
+              <span class="stat-desc">Integraciones compatibles</span>
+            </div>
+          </div>
+          <!--Info Two-->
+          <div class="col-12 col-md-4 stat-box">
+            <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-content-management stat-icon"></i>
+              <p class="stat-num"><span class="counter" data-from="0" data-to="800" data-speed="3000"
+                  data-refresh-interval="50"></span><span class="sign">+</span></p>
+              <span class="stat-desc">Marcas compatibles</span>
+            </div>
+          </div>
+          <!--Info Three-->
+          <div class="col-12 col-md-4 stat-box">
+            <div class="stat-box-inner" data-tilt="data-tilt"><i class="flaticon-user stat-icon"></i>
+              <p class="stat-num"><span class="counter" data-from="0" data-to="200" data-speed="3000"
+                  data-refresh-interval="50"></span><span class="sign">+</span></p>
+              <span class="stat-desc">Clientes satisfechos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End  stats Section-->
+  <!-- Start  testimonials Section-->
+  <section class="testimonials testimonials-1-col   has-dark-bg  mega-section " id="testimonials-img-bg">
+    <div class="overlay-photo-image-bg parallax " data-bg-img="assets/images/sections-bg-images/1.jpg"
+      data-bg-opacity=".25"> </div>
+    <div class="container">
+      <div class="sec-heading  centered ">
+        <div class="content-area"><span class=" pre-title       wow fadeInUp " data-wow-delay=".2s">Testimonios</span>
+          <h2 class=" title    wow fadeInUp" data-wow-delay=".4s">Testimonios de nuestros <span class='hollow-text'>
+              clietes </span>
+          </h2>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-10  mx-auto">
+          <div class="swiper-container  wow fadeInUp  " data-wow-delay="0.2s">
+            <div class="swiper-wrapper">
+              <!--First Slide-->
+              <div class="swiper-slide">
+                <div class="testmonial-card d-flex align-items-center justify-content-center">
+                  <div class="testimonial-content">
+                    <div class="customer-img "><img class="img-fluid " loading="lazy"
+                        src="assets/images/testimonials/1.png" alt="First Slide "></div>
+                    <div class="customer-testimonial">
+                      <div class="content">
+                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
+                          sequi
+                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="customer-info ">
+                      <div class="customer-details">
+                        <p class="customer-name">Yusuf amin</p>
+                        <p class="customer-role">founder</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Second Slide-->
+              <div class="swiper-slide">
+                <div class="testmonial-card d-flex align-items-center justify-content-center">
+                  <div class="testimonial-content">
+                    <div class="customer-img "><img class="img-fluid " loading="lazy"
+                        src="assets/images/testimonials/2.png" alt="First Slide "></div>
+                    <div class="customer-testimonial">
+                      <div class="content">
+                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
+                          sequi
+                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="customer-info ">
+                      <div class="customer-details">
+                        <p class="customer-name">fouad osman</p>
+                        <p class="customer-role">officer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--third Slide-->
+              <div class="swiper-slide">
+                <div class="testmonial-card d-flex align-items-center justify-content-center">
+                  <div class="testimonial-content">
+                    <div class="customer-img "><img class="img-fluid " loading="lazy"
+                        src="assets/images/testimonials/3.png" alt="First Slide "></div>
+                    <div class="customer-testimonial">
+                      <div class="content">
+                        <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing elit. Quod, id
+                          sequi
+                          aut qui est ab, corporis quis maiores reiciendis explicabo odio tenetur nulla sint vel.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="customer-info ">
+                      <div class="customer-details">
+                        <p class="customer-name">fairouz mhmd</p>
+                        <p class="customer-role">manager</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--navigation buttons-->
+            <div class="swiper-button-prev">
+              <div class="left-arrow"><i class="bi bi-chevron-left icon "></i>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <div class="right-arrow"><i class="bi bi-chevron-right icon "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End  testimonials Section-->
+  <!-- Start  page-footer Section-->
+  <footer class="page-footer dark-color-footer" id="page-footer">
+    <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg"
+      data-bg-opacity=".25"></div>
+    <div class="container">
+      <div class="row footer-cols">
+        <div class="col-12 col-md-8 col-lg-4 footer-col">
+          <img class="img-fluid footer-logo" loading="lazy" src="assets/images/logo/logo-colored.png" alt="logo" />
+          <div class="footer-col-content-wrapper">
+            <p class="footer-text-about-us">
+              En Domoti Cloud, estamos aquí para escuchar y ofrecer soluciones personalizadas.<br>
+              Tu satisfacción es nuestra prioridad, y estamos comprometidos a proporcionarte el mejor servicio
+              posible.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-4 offset-lg-4 footer-col">
+          <h2 class="footer-col-title text-right">Información de Contacto</h2>
+          <div class="footer-col-content-wrapper text-right">
+            <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase info"
+                href="mailto:contacto@domoti.cloud">contacto@domoti.cloud</a></div>
+            <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase info">México,
+                Huixquilucan, Bosque Real.</span></div>
+            <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info" href="tel:+525592217665">+52
+                55 9221 7665</a></div>
+            <div class="contact-info-card">
+              <div class="social-icons">
+                <div class="sc-wrapper dir-row sc-size-32">
+                  <ul class="sc-list">
+                    <li class="sc-item" title="Síguenos en Facebook"><a class="sc-link"
+                        href="https://www.facebook.com/domoti.cloud" title="Síguenos en Facebook">
+                        <img src="assets/images/custom-icons/facebook.png" alt="Facebook Icon" class="sc-icon">
+                      </a></li>
+                    <li class="sc-item" title="Ve nuestros videos en YouTube"><a class="sc-link"
+                        href="https://www.youtube.com/@DomotiCloud" title="Ve nuestros videos en YouTube">
+                        <img src="assets/images/custom-icons/youtube.png" alt="YouTube Icon" class="sc-icon">
+                      </a></li>
+                    <li class="sc-item" title="Síguenos en Instagram"><a class="sc-link"
+                        href="https://www.instagram.com/domoticloud/" title="Síguenos en Instagram">
+                        <img src="assets/images/custom-icons/instagram.png" alt="Instagram Icon" class="sc-icon">
+                      </a></li>
+                    <li class="sc-item" title="Síguenos en Twitter"><a class="sc-link"
+                        href="https://twitter.com/Domoticloud" title="Síguenos en Twitter">
+                        <img src="assets/images/custom-icons/twitter.png" alt="Twitter Icon" class="sc-icon">
+                      </a></li>
+                    <li class="sc-item" title="Síguenos en LinkedIn"><a class="sc-link"
+                        href="https://www.linkedin.com/company/domoti-cloud" title="Síguenos en LinkedIn">
+                        <img src="assets/images/custom-icons/linkedin.png" alt="LinkedIn Icon" class="sc-icon">
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="credits">
+                &copy; 2024 Creado con la ayuda de: ChatGPT</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-end">
+              <div class="terms-links"><a href="#0" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal">Aviso de
+                  Privacidad</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End  page-footer Section-->
+
+
+  <!-- Start loading-screen Component-->
+  <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span
+      class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+  <!-- End loading-screen Component-->
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/525592217665?text=Hola, me pueden contactar para saber más acerca de:" class="whatsapp-float"
+    target="_blank" title="Escríbenos, estamos listos para atenderte">
+    <img src="assets/images/custom-icons/whatsapp.png" alt="WhatsApp Icon" />
+  </a>
+
+  <!-- Botón de Regreso al Inicio -->
+  <div class="back-to-top" id="back-to-top" title="Regresar al inicio">
+    <i class="bi bi-arrow-up icon"></i>
+  </div>
+
+  <div class="modal privacy-policy-modal fade" id="privacyPolicyModal" aria-labelledby="PrivacyPolicyModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+      <div class="modal-content text-dark">
+        <div class="modal-header">
+          <h2 class="modal-title" id="PrivacyPolicyModalLabel">Aviso de Privacidad</h2>
+          <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+            <p>En Domoti Cloud, nos comprometemos a proteger la privacidad de nuestros clientes y usuarios. Este
+              aviso de privacidad explica cómo recopilamos, usamos, compartimos y protegemos su información personal
+              de acuerdo con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares de
+              México.</p>
+          </div>
+          <div class="content">
+            <h4>1. Responsable de la Información</h4>
+            <p>Domoti Cloud, con domicilio en México, Huixquilucan, Bosque Real, es responsable del tratamiento de
+              sus datos personales.</p>
+          </div>
+          <div class="content">
+            <h4>2. Datos Personales Recopilados</h4>
+            <p>Recopilamos datos personales como nombre completo, dirección de correo electrónico, número de
+              teléfono, dirección física, y datos fiscales con la finalidad de facturación.</p>
+          </div>
+          <div class="content">
+            <h4>3. Finalidad del Tratamiento de Datos</h4>
+            <p>Los datos personales que recopilamos serán utilizados para proveer los productos y servicios
+              solicitados, informar sobre cambios o nuevos productos y servicios, evaluar la calidad del servicio y
+              realizar estudios internos sobre hábitos de consumo.</p>
+          </div>
+          <div class="content">
+            <h4>4. Protección de Datos</h4>
+            <p>Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger sus datos
+              personales contra daño, pérdida, alteración, destrucción o el uso, acceso o tratamiento no autorizado.
+            </p>
+          </div>
+          <div class="content">
+            <h4>5. Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición)</h4>
+            <p>Usted tiene el derecho de acceder, rectificar, cancelar u oponerse al tratamiento de sus datos
+              personales. Para ejercer estos derechos, envíe una solicitud a contacto@domoti.cloud con su nombre
+              completo, dirección de correo electrónico o número de teléfono, y la descripción clara y precisa de
+              los datos personales a los que desea acceder, rectificar, cancelar u oponerse.</p>
+          </div>
+          <div class="content">
+            <h4>6. Uso de Datos por Terceros</h4>
+            <p>No compartimos sus datos personales con terceros sin su consentimiento expreso, salvo cuando sea
+              necesario para cumplir con obligaciones legales.</p>
+          </div>
+          <div class="content">
+            <h4>7. Cambios en el Aviso de Privacidad</h4>
+            <p>Nos reservamos el derecho de efectuar en cualquier momento modificaciones o actualizaciones al
+              presente aviso de privacidad. Estas modificaciones estarán disponibles a través de nuestro sitio web
+              <a href="https://domoti.cloud">domoti.cloud</a>.
+            </p>
+          </div>
+          <div class="content">
+            <h4>8. Contacto</h4>
+            <p>Si tiene alguna duda sobre este aviso de privacidad, puede contactarnos en: <br>
+              📧 Email: <a href="mailto:contacto@domoti.cloud">contacto@domoti.cloud</a> <br>
+              📞 Teléfono: <a href="tel:+525592217665">+52 55 9221 7665</a> (WhatsApp)
+            </p>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn-solid" type="button" data-bs-dismiss="modal" aria-label="Close">Click para
+            cerrar</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End privacy-policy-modal-->
+
+  <!--     JQuery     -->
+  <script src="js/vendors/jquery-3.6.1.min.js"></script>
+
+  <!--     appear     -->
+  <script src="js/vendors/appear.min.js"></script>
+
+  <!--     bootstrap     -->
+  <script src="js/vendors/bootstrap.bundle.min.js"></script>
+
+  <!--     countTo     -->
+  <script src="js/vendors/jquery.countTo.js"></script>
+
+  <!--     wow     -->
+  <script src="js/vendors/wow.min.js"></script>
+
+  <!--     swiper     -->
+  <script src="js/vendors/swiper-bundle.min.js"></script>
+
+  <!--     particles     -->
+  <script src="js/vendors/particles.min.js"></script>
+
+  <!--     Vanilla-tilt     -->
+  <script src="js/vendors/vanilla-tilt.min.js"></script>
+
+  <!--     isotope     -->
+  <script src="js/vendors/isotope-min.js"></script>
+
+  <!--     fancybox     -->
+  <script src="js/vendors/jquery.fancybox.min.js"></script>
+
+  <!--     main     -->
+  <script src="js/main.js"></script>
+
+  </a>
+  <a href="https://wa.me/525592217665?text=Hola, me pueden contactar para saber más acerca de:" class="whatsapp-float"
+    target="_blank" title="Escríbenos, estamos listos para atenderte">
+    <img src="assets/images/custom-icons/whatsapp.png" alt="WhatsApp Icon" />
+  </a>
+
+  <!-- Botón de Regreso al Inicio -->
+  <div class="back-to-top" id="back-to-top" title="Regresar al inicio">
+    <i class="bi bi-arrow-up icon"></i>
+  </div>
 </body>
 
 </html>
