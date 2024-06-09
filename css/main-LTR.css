@@ -77,6 +77,87 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
   --rtl-main-font-f: "Tajawal", "sans-serif";
 }
 
+
+
+
+
+.controls-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* Para alinear el ícono a la derecha */
+}
+
+.mode-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.switch-inner {
+  padding: 5px;
+}
+.sc-icon {
+  width: 44px;
+  /* Ancho ajustado para mantener la proporción */
+  height: 30px;
+  /* Altura deseada */
+  /*object-fit: contain;
+  /* Asegura que la imagen se ajuste dentro del contenedor sin distorsionarse */
+  /*border: none;
+  /* Elimina cualquier borde */
+}
+
+.sc-link {
+  display: inline-block;
+  border: none;
+  /* Elimina cualquier borde alrededor del enlace */
+}
+
+.sc-link img {
+  border: none;
+  /* Asegura que las imágenes no tengan borde */
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 80px;
+  /* Ajusta este valor según sea necesario */
+  right: 25px;
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+}
+
+.whatsapp-float:hover::after,
+.back-to-top:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 60px;
+  /* Ajusta este valor para la posición del tooltip */
+  right: 0;
+  background-color: #25d366;
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
 /*========== Start Global Rules ==========*/
 .sec-heading.centered .bottom-line, .sec-heading .bottom-line, .line-on-side, .line {
   display: block;
