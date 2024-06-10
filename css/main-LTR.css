@@ -2109,7 +2109,7 @@ body.rounded-btns .read-more {
   z-index: 0;
   max-height: 1280px;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 0;
 }
 .page-hero.tringle-bg::before {
   content: "";
@@ -2459,14 +2459,21 @@ body.rounded-btns .read-more {
 }
 
 .inner-page-hero {
-  height: 60vh;
-  min-height: 60vh;
+  padding: 0; /* Reduce el padding */
+  margin: 0 auto;
+  height: 20vh; /* Ajusta la altura, puedes cambiar el valor según necesites */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
   opacity: 1;
 }
 .inner-page-hero:before {
   display: none;
 }
 .inner-page-hero .hero-text-area {
+  padding-top: 0; /* Eliminar padding superior */
+  margin-top: 0; /* Eliminar margen superior */
   margin: 0;
 }
 .inner-page-hero .hero-text-area .hero-title {
@@ -2474,8 +2481,8 @@ body.rounded-btns .read-more {
   color: var(--clr-white);
 }
 .inner-page-hero .hero-text-area .hero-title {
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
+  margin-bottom: 0rem;
+  line-height: 0;
 }
 .inner-page-hero .hero-text-area.centerd {
   text-align: center;
@@ -2519,7 +2526,7 @@ body.rounded-btns .read-more {
   height: 60px;
 }
 .services-boxed .service-content {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .services-boxed .service-title {
   text-transform: capitalize;

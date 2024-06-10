@@ -2390,7 +2390,12 @@ body.rounded-btns .read-more {
 }
 
 .inner-page-hero {
-  height: 60vh;
+  padding: 2rem 0; /* Reduce el padding */
+  margin: 0 auto;
+  height: 50vh; /* Ajusta la altura, puedes cambiar el valor según necesites */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 60vh;
   opacity: 1;
 }
