@@ -54,44 +54,42 @@
   <title>En construcción - Domoti Cloud</title>
 
   <style>
+    .page-hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
+    .construction-content {
+      text-align: center;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+    }
 
-.page-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+    .construction-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #3498db;
+    }
 
-.construction-content {
-    text-align: center;
-    padding: 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
+    .construction-content p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
 
-.construction-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #3498db;
-}
+    .construction-icon {
+      font-size: 4rem;
+      color: #e67e22;
+    }
+  </style>
 
-.construction-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.construction-icon {
-    font-size: 4rem;
-    color: #e67e22;
-}
-</style>
-
-<script>
-  setTimeout(function() {
-    window.location.href = "index.html";
-  }, 10000); // 10000 milisegundos = 10 segundos
-</script>
+  <script>
+    setTimeout(function () {
+      window.location.href = "index.html";
+    }, 10000); // 10000 milisegundos = 10 segundos
+  </script>
 
 
 
@@ -180,82 +178,92 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!--Start Page Header-->
-<header class="page-header header-basic" id="page-header">
-  <div class="header-search-box">
-    <div class="close-search"></div>
-    <form class="nav-search search-form" role="search" method="get" action="#">
-      <div class="search-wrapper">
-        <label class="search-lbl">Search for:</label>
-        <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus" />
-        <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
-      </div>
-    </form>
-  </div>
-  <div class="container">
-    <nav class="menu-navbar">
-      <div class="header-logo">
-        <a class="logo-link" href="#">
-          <img class="logo-img light-logo" loading="lazy" src="assets/images/logo/logo-light.png" alt="logo" />
-          <img class="logo-img dark-logo" loading="lazy" src="assets/images/logo/logo-dark.png" alt="logo" />
-        </a>
-      </div>
-      <div class="links menu-wrapper">
-        <ul class="list-js links-list">
-          <li class="menu-item has-sub-menu">
-            <a class="menu-link" href="#0">Nuestros Servicios <i class="fas fa-plus plus-icon"> </i></a>
-            <ul class="sub-menu">
-              <li class="menu-item sub-menu-item">
-                <a class="menu-link sub-menu-link" href="soluciones-en-seguridad-perimetral.html">DomotiProtecShield</a>
-              </li>
-              <li class="menu-item sub-menu-item">
-                <a class="menu-link sub-menu-link" href="soluciones-en-seguridad-cibernetica.html">DomotiCyberShield</a>
-              </li>
-              <li class="menu-item sub-menu-item">
-                <a class="menu-link sub-menu-link" href="soluciones-wifi-mesh.html">DomotiWiFiExtend</a>
-              </li>
-              <li class="menu-item sub-menu-item">
-                <a class="menu-link sub-menu-link" href="soluciones-en-energia.html">DomotiEnergiControl</a>
-              </li>
-              <li class="menu-item sub-menu-item">
-                <a class="menu-link sub-menu-link" href="soluciones-en-automatizacion.html">DomotiHomeService</a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu-item"><a class="menu-link" href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-      <div class="controls-box">
-        <div class="mode-switcher">
-          <div class="switch-inner go-light" title="Switch To Light Mode"><i class="bi bi-sun icon"></i></div>
-          <div class="switch-inner go-dark" title="Switch To Dark Mode"><i class="bi bi-moon icon"></i></div>
+  <header class="page-header header-basic" id="page-header">
+    <div class="header-search-box">
+      <div class="close-search"></div>
+      <form class="nav-search search-form" role="search" method="get" action="#">
+        <div class="search-wrapper">
+          <label class="search-lbl">Search for:</label>
+          <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus" />
+          <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
         </div>
-      </div>
-    </nav>
-  </div>
-</header>
-<!--End Page Header-->
-
-<!-- Start  Page hero-->
-<section class="page-hero section-padding" style="background-image: url('assets/images/sections-bg-images/pattern-bg-1.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; display: flex; align-items: center; justify-content: center; height: 100vh;">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="construction-content">
-                    <div class="construction-icon">🚧</div>
-                    <h1>¡Estamos Construyendo!</h1>
-                    <p>Nuestra sección de blog estará disponible pronto. Estamos preparando contenido valioso y emocionante para ti. Mientras tanto, explora nuestros otros servicios y mantente conectado con nosotros.</p>
-                </div>
-            </div>
-        </div>
+      </form>
     </div>
-</section>
-<!-- End  Page hero-->
+    <div class="container">
+      <nav class="menu-navbar">
+        <div class="header-logo">
+          <a class="logo-link" href="#">
+            <img class="logo-img light-logo" loading="lazy" src="assets/images/logo/logo-light.png" alt="logo" />
+            <img class="logo-img dark-logo" loading="lazy" src="assets/images/logo/logo-dark.png" alt="logo" />
+          </a>
+        </div>
+        <div class="links menu-wrapper">
+          <ul class="list-js links-list">
+            <li class="menu-item has-sub-menu">
+              <a class="menu-link" href="#0">Nuestros Servicios <i class="fas fa-plus plus-icon"> </i></a>
+              <ul class="sub-menu">
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link"
+                    href="soluciones-en-seguridad-perimetral.html">DomotiProtecShield</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link"
+                    href="soluciones-en-seguridad-cibernetica.html">DomotiCyberShield</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-wifi-mesh.html">DomotiWiFiExtend</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-energia.html">DomotiEnergiControl</a>
+                </li>
+                <li class="menu-item sub-menu-item">
+                  <a class="menu-link sub-menu-link" href="soluciones-en-automatizacion.html">DomotiHomeService</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="controls-box">
+          <div class="mode-switcher">
+            <div class="switch-inner go-light" title="Switch To Light Mode"><i class="bi bi-sun icon"></i></div>
+            <div class="switch-inner go-dark" title="Switch To Dark Mode"><i class="bi bi-moon icon"></i></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--End Page Header-->
 
-  
-  
+  <!-- Start  Page hero-->
+  <section class="page-hero section-padding"
+    style="background-image: url('assets/images/sections-bg-images/pattern-bg-1.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; display: flex; align-items: center; justify-content: center; height: 100vh;">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <div class="construction-content">
+            <div class="construction-icon">🚧</div>
+            <h1>¡Estamos Construyendo!</h1>
+            <p>Nuestra sección de blog estará disponible pronto. Estamos preparando contenido valioso y emocionante para
+              ti. Mientras tanto, explora nuestros otros servicios y mantente conectado con nosotros.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+          <div class="cta-links-area wow  fadeInUp " data-wow-delay=".8s"><a class=" btn-solid cta-link " href="index.html">Regresar al Inicio</a></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End  Page hero-->
 
 
-<!-- Start  page-footer Section-->
+
+
+
+  <!-- Start  page-footer Section-->
   <footer class="page-footer dark-color-footer" id="page-footer">
     <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg"
       data-bg-opacity=".25"></div>
