@@ -90,6 +90,49 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
 
 
 
+.sub-menu .sub-menu-item .menu-link {
+  position: relative;
+  padding-left: 30px; /* Espacio para el ícono */
+}
+
+.sub-menu .sub-menu-item .menu-link::before {
+  content: '';
+  display: inline-block;
+  width: 20px; /* Ajusta el tamaño según sea necesario */
+  height: 20px; /* Ajusta el tamaño según sea necesario */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+}
+
+.sub-menu .sub-menu-item:nth-child(1) .menu-link:hover::before {
+  background-image: url('assets/images/logo/DomotiProtecShield.svg');
+}
+
+.sub-menu .sub-menu-item:nth-child(2) .menu-link:hover::before {
+  background-image: url('assets/images/logo/DomotiCyberShield.svg');
+}
+
+.sub-menu .sub-menu-item:nth-child(3) .menu-link:hover::before {
+  background-image: url('assets/images/logo/DomotiWiFiExtend.svg');
+}
+
+.sub-menu .sub-menu-item:nth-child(4) .menu-link:hover::before {
+  background-image: url('assets/images/logo/DomotiEnergiControl.svg');
+}
+
+.sub-menu .sub-menu-item:nth-child(5) .menu-link:hover::before {
+  background-image: url('assets/images/logo/DomotiHomeService.svg');
+}
+
+
+
+
 
 .controls-box {
   display: flex;
