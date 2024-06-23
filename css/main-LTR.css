@@ -77,6 +77,16 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
   --rtl-main-font-f: "Tajawal", "sans-serif";
 }
 
+.service-icon .font-icon {
+  width: 50px; /* Ajusta este valor según tus necesidades */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Para asegurarse de que se comporta como un elemento de bloque */
+  margin: 0 auto; /* Centra la imagen */
+}
+
+.service-icon:hover .font-icon {
+  filter: invert(1); /* Esto invertirá los colores, puedes ajustar esto para obtener el efecto deseado */
+}
 
 
 
