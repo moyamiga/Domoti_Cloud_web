@@ -111,7 +111,7 @@ Template Description: IT Solutions & Business Services Responsive HTML5 Bootstra
 }
 
 .sub-menu .sub-menu-item:nth-child(1) .menu-link:hover::before {
-  background-image: url('assets/images/logo/DomotiProtecShield.svg');
+  background-image: url('assets/images/logo/DomotiSecureLock.svg');
 }
 
 .sub-menu .sub-menu-item:nth-child(2) .menu-link:hover::before {
